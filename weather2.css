@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: rgb(75, 101, 187);
+}
+.navbar {
+  background-color: #4b65bb;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  min-width: 300px;
+  margin-top: 100px;
+}
+.card {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+  background: transparent;
+  backdrop-filter: 30px;
+  box-shadow: 10px;
+  z-index: 10;
+}
+
+#cityName {
+  color: #fff;
+  font-size: 30px;
+}
+.cityname {
+  margin-top: 10px;
+}
+.temp {
+  font-size: 60px;
+}
+.type {
+  margin-bottom: 2px;
+  font-size: 25px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10px;
+  min-width: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background: rgb(58, 104, 220);
+  backdrop-filter: 10px;
+  font-size: 15px;
+}
+.forcast {
+  display: flex;
+  justify-content: center;
+}
+.table {
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 50px;
+}
+.container3 {
+  min-height: 350px;
+  min-width: 300px;
+  margin-top: 100px;
+  border: 0.1px solid #212529;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card3 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 45vw);
+  grid-template-rows: repeat(4, 30vw);
+}
+.card3 .sunrise .sunset .feals_like .rain .windspeed .humidity .pressure .AQI {
+  color: black;
+}
+.card3 span {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  place-items: center;
+}
+.sunrise .sunset .feals_like .rain .windspeed .humidity .pressure .AQI span {
+  margin-top: 30px;
+  padding-top: 30px;
+}
